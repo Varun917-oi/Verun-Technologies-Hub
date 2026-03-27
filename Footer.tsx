@@ -53,8 +53,6 @@ function Footer({
     };
   }, []);
 
-<<<<<<< HEAD
-=======
   const handleButtonHover = (isHovering: boolean) => {
     if (buttonRef.current) {
       gsap.to(buttonRef.current, {
