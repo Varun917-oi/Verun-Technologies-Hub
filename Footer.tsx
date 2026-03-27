@@ -1,10 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-<<<<<<< HEAD
-=======
 import { Coffee, Heart } from 'lucide-react';
->>>>>>> 86bda198bda341d2524d92f043b46c800955e213
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,10 +12,7 @@ interface FooterProps {
 
 function Footer({ 
   username = 'username',
-<<<<<<< HEAD
-=======
   buyMeACoffeeUrl = '#'
->>>>>>> 86bda198bda341d2524d92f043b46c800955e213
 }: FooterProps) {
   const sectionRef = useRef<HTMLElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
