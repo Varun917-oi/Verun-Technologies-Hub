@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import VideoBackground from './components/VideoBackground';
-import AnimatedBackground from './components/AnimatedBackground';
 import Hero from './sections/Hero';
 import Connect from './sections/Connect';
 import Contact from './sections/Contact';
