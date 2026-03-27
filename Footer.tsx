@@ -63,7 +63,6 @@ function Footer({
     }
   };
 
->>>>>>> 86bda198bda341d2524d92f043b46c800955e213
   return (
     <footer 
       ref={sectionRef}
@@ -86,12 +85,9 @@ function Footer({
           
           <span className="hidden md:block text-white/20">|</span>
           
-<<<<<<< HEAD
-=======
           <p className="text-sm flex items-center gap-1">
             Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> and creativity
           </p>
->>>>>>> 86bda198bda341d2524d92f043b46c800955e213
         </div>
 
         {/* Quick Links */}
