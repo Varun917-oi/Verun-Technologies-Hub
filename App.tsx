@@ -2,26 +2,20 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import VideoBackground from './components/VideoBackground';
-<<<<<<< HEAD
-=======
 import AnimatedBackground from './components/AnimatedBackground';
->>>>>>> 86bda198bda341d2524d92f043b46c800955e213
 import Hero from './sections/Hero';
 import Connect from './sections/Connect';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
-<<<<<<< HEAD
-=======
 import AntigravityCursor from './components/AntigravityCursor';
->>>>>>> 86bda198bda341d2524d92f043b46c800955e213
-
+import { useState } from "react";
 import './App.css';
 
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
   const mainRef = useRef<HTMLElement>(null);
-
+  
   useEffect(() => {
     const ctx = gsap.context(() => {
       ScrollTrigger.refresh();
@@ -61,10 +55,7 @@ function App() {
   return (
     <>
       <VideoBackground />
-<<<<<<< HEAD
-=======
       <AntigravityCursor />
->>>>>>> 86bda198bda341d2524d92f043b46c800955e213
       <div className="grain-overlay" />
 
       <main ref={mainRef} className="relative z-10">
