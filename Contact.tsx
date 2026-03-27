@@ -19,11 +19,8 @@ function Contact({ heading = 'Send a Signal' }: ContactProps) {
   const dividerRef = useRef<HTMLDivElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
   const leftContentRef = useRef<HTMLDivElement>(null);
-<<<<<<< HEAD
-=======
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitText, setSubmitText] = useState('Transmit');
->>>>>>> 86bda198bda341d2524d92f043b46c800955e213
   const triggersRef = useRef<ScrollTrigger[]>([]);
 
   useEffect(() => {
@@ -105,9 +102,6 @@ function Contact({ heading = 'Send a Signal' }: ContactProps) {
     };
   }, []);
 
-<<<<<<< HEAD
- 
-=======
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -127,7 +121,6 @@ function Contact({ heading = 'Send a Signal' }: ContactProps) {
   const handleButtonHover = (isHovering: boolean) => {
     setSubmitText(isHovering ? 'Initiate' : 'Transmit');
   };
->>>>>>> 86bda198bda341d2524d92f043b46c800955e213
 
   return (
     <section 
