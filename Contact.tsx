@@ -1,14 +1,11 @@
-<<<<<<< HEAD
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Mail, User } from 'lucide-react';
-=======
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Send, Mail, User, MessageSquare } from 'lucide-react';
->>>>>>> 86bda198bda341d2524d92f043b46c800955e213
+import {  Mail, User } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
